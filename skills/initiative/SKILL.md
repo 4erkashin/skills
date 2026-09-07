@@ -1,6 +1,7 @@
 ---
 name: initiative
 description: Create a concise initiative Markdown file from a goal or rough plan, for later planning and implementation sessions.
+license: MIT
 ---
 
 # Initiative
