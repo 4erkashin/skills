@@ -1,14 +1,14 @@
 # Usage examples
 
-## Create a draft
+## Create an initiative
 
 > Use the initiative skill to create an initiative for CSV import. The goal is to reduce manual entry. Put the file near the import feature.
 
-The skill inspects the project and creates a draft. The opening fields could be:
+The skill inspects the project and creates a brief. The opening fields could be:
 
 **Goal.** Reduce manual entry with CSV import.
 
-**Current step.** 1. Import records — draft. Proposed: support one record type.
+**Current step.** 1. Import records — grilling. Proposed: support one record type.
 
 **Done when.** Proposed: a valid CSV creates the expected records. Checks for invalid and duplicate rows depend on the decisions below.
 
@@ -18,7 +18,7 @@ The skill inspects the project and creates a draft. The opening fields could be:
 
 > Read `features/import/INITIATIVE.md`. Resolve its current-step open questions with me, and save agreed decisions and reasons in the file. Do not implement yet.
 
-The session uses the existing brief to resolve only the current step's remaining questions. This works with ordinary agent discussion; no companion skill is required.
+The session uses the existing brief to resolve only the current step's remaining questions. When its frontier is empty, it sets the step to **ready to implement**. This works with ordinary agent discussion; no companion skill is required.
 
 ## Implement an agreed step
 

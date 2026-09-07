@@ -4,7 +4,7 @@ Working context for this initiative. Read this file before planning or implement
 
 **Goal.** [The result of the whole initiative and why it matters.]
 
-**Current step.** [Number and bounded outcome] — draft. [Include scope limits here only when useful. Mark proposed choices as proposed.]
+**Current step.** [Number and bounded outcome] — grilling. [Use **grilling** while current-step questions remain. Use **ready to implement** when its frontier is empty. Include scope limits here only when useful. Mark proposed choices as proposed.]
 
 **Done when.** [Observable completion conditions, including how to check them. Mark proposed conditions as proposed.]
 
@@ -17,7 +17,7 @@ Working context for this initiative. Read this file before planning or implement
 
 ## Continue from this file
 
-Ask an agent to read this file, resolve the current step's open questions, and save agreed decisions with their reasons. Mark the current step ready when the user confirms it.
+Ask an agent to read this file, resolve the current step's open questions, and save agreed decisions with their reasons. Set the current step to **ready to implement** when its frontier is empty.
 
 Implement when the user requests it. If an agreed decision must change, ask the user. Record progress and check the result against **Done when**.
 

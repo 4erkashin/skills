@@ -1,4 +1,4 @@
 interface:
   display_name: "Initiative"
-  short_description: "Seed a durable brief for a later session"
-  default_prompt: "Use $initiative to create a draft initiative file from my goal and project context, ready to continue in a later session."
+  short_description: "Create a durable working brief"
+  default_prompt: "Use $initiative to create an initiative file from my goal and project context."
